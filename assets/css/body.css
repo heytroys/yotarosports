@@ -539,3 +539,35 @@ a {
     border-bottom: none;
 }
 
+#zenni-figskate23 .animate_fadeIn .daihyo-wo {
+    text-align: center;
+    padding: 15px;
+    border: #solid 2px rgb(206, 132, 132, 0.8);
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+#zenni-figskate23 .animate_fadeIn .daihyo-me {
+    text-align: center;
+    padding: 15px;
+    border: #solid 2px rgb(100, 124, 230, 0.8);
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+#zenni-figskate23 .animate_fadeIn .daihyo-pe {
+    text-align: center;
+    padding: 15px;
+    border: #solid 2px rgb(162, 255, 104, 0.8);
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+#zenni-figskate23 .animate_fadeIn .daihyo-ice {
+    text-align: center;
+    padding: 15px;
+    border: #solid 2px rgb(255, 147, 80, 0.8);
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
