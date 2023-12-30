@@ -12,6 +12,7 @@ const move = function() {
     }
 }
 
+/*
 const fadeUp = function() {
     let target = document.getElementsByClassName("mae");
     let position = Math.floor(window.innerHeight * 1.30);
@@ -23,8 +24,8 @@ const fadeUp = function() {
             target[i].classList.add("ato");
         }
     }
-}
+} */
 
 
 window.addEventListener("scroll", move, false);
-window.addEventListener("scroll", fadeUp, false);
+// window.addEventListener("scroll", fadeUp, false);
