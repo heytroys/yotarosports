@@ -136,6 +136,9 @@ a {
 /* main
 ========================================= */
 
+/* scroll
+========================================= */
+
 #main-bottom {
     text-align: center;
 }
@@ -173,6 +176,23 @@ a {
 #main-bottom .img-after {
     opacity: 1;
 }
+
+.min {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    opacity: 0;
+}
+
+.max {
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: all 2.5s;
+}
+
+
 
 
 /* about
