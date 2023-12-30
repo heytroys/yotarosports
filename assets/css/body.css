@@ -51,6 +51,11 @@ a {
     color: #000;
 }
 
+
+#header .navbar .navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
 #header .navbar .navbar-toggler i {
     font-size: 2.5rem;
     position: relative;
