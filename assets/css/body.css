@@ -425,6 +425,17 @@ a {
     margin-bottom: 80px;
 }
 
+#zenni-figskate23 .animate__fadeIn .date {
+    text-align: right;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+#zenni-figskate23 .animate__fadeIn .date p {
+    font-size: 1rem;
+    color: #999;
+}
 
 #zenni-figskate23 .animate__fadeIn p {
     font-size: 0.8rem;
