@@ -177,14 +177,14 @@ a {
     opacity: 1;
 }
 
-.min {
+.before-content {
     position: relative;
     left: 70px;
     top: 25px;
     opacity: 0;
 }
 
-.max {
+.after-content {
     position: relative;
     left: 0;
     top: 0;
