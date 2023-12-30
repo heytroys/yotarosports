@@ -13,14 +13,14 @@ const move = function() {
 }
 
 const fadeUp = function() {
-    let target = document.getElementsByClassName("min");
+    let target = document.getElementsByClassName("before-content");
     let position = Math.floor(window.innerHeight * 1.30);
 
     for (let i = 0; i < target.length; i++) {
         let offsetTop = Math.floor(target[i].getBoundingClientRect().top);
 
         if (offsetTop < position) {
-            target[i].classList.add("max");
+            target[i].classList.add("after-content");
         }
     }
 }
