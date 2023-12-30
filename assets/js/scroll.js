@@ -7,7 +7,7 @@ const move = function() {
         let offsetTop = Math.floor(target[i].getBoundingClientRect().top);
 
         if (offsetTop < position) {
-            target[i].classList.add("animate__animated", "animate__zoomInLeft", "img-after","ato");
+            target[i].classList.add("animate__animated", "animate__zoomInLeft", "img-after", "ato");
         }
     }
 }
