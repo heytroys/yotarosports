@@ -425,10 +425,18 @@ a {
     margin-bottom: 80px;
 }
 
+
+#zenni-figskate23 .animate__fadeIn p {
+    font-size: 0.8rem;
+    text-align: left;
+    color: #999;
+    margin-bottom: 80px;
+}
+
 #zenni-figskate23 .animate__fadeIn .img {
     padding: 20px;
     margin: 30px auto;
-    margin-bottom: 80px;
+    margin-bottom: 5px;
 } 
 
 #zenni-figskate23 .animate__fadeIn .img img {
