@@ -422,11 +422,13 @@ a {
 #zenni-figskate23 .animate__fadeIn h3 {
     font-size: 1.4rem;
     margin: 20px auto;
+    margin-bottom: 80px;
 }
 
 #zenni-figskate23 .animate__fadeIn .img {
     padding: 20px;
     margin: 30px auto;
+    margin-bottom: 80px;
 } 
 
 #zenni-figskate23 .animate__fadeIn .img img {
