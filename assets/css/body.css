@@ -1,0 +1,491 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Noto+Serif+JP:wght@700&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 0.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* header navbar
+=================================== */
+
+#hdr_header {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Kalam', cursive;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#header .navbar {
+    padding: 15px;
+    background: linear-gradient(150deg, rgba(96, 151, 234, 1), rgba(255, 255, 255, 1));
+}
+
+#header .navbar h1 a {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#header .navbar .navbar-toggler i {
+    font-size: 2.5rem;
+    position: relative;
+    right: 5px;
+    bottom: 3px;
+}
+
+#header .navbar .navbar-nav {
+    padding-left: 20px;
+}
+
+#header .navbar .navbar-nav a {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+#header .navbar .navbar-nav .dropdown-item {
+    font-size: 1.2rem;
+}
+
+
+
+/* slider
+=================== */
+
+#auto-slider {
+    margin-bottom: 80px;
+}
+
+@keyframes infinity-scroll-right {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.pic {
+    width: calc(100vw / 1);
+    margin: 20px;
+}
+
+.pic img {
+    border-radius: 25px;
+}
+
+.pic > img {
+    width: 100%;
+}
+
+#auto-slider .flex-images-right {
+    display: flex;
+    overflow: hidden;
+}
+
+#auto-slider .flex-images-right .scroll-list {
+    display: flex;
+    list-style: none;
+}
+
+#auto-slider .flex-images-right .scroll-list li img {
+    vertical-align: bottom;
+    box-shadow: 5px 5px 10px rgba(96, 151, 234, 1);
+}
+
+#auto-slider .flex-images-right .auto-scroll-from-right {
+    animation: infinity-scroll-right 20s linear 0.5s infinite normal both;
+} 
+
+#auto-slider .flex-images-right:hover .auto-scroll-from-right,
+#auto-slider .flex-images-right:active .auto-scroll-from-right {
+    animation-play-state: paused;
+}
+
+#auto-slider .flex-images-right:hover .scroll-list li img,
+#auto-slider .flex-images-right:active .scroll-list li img {
+    box-shadow: none;
+    transition: all 1s;
+}
+
+
+/* main
+========================================= */
+
+#main-bottom {
+    text-align: center;
+}
+
+#main-bottom h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 3px rgba(96, 151, 234, 1);
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+#main-bottom .img {
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 160px;
+    opacity: 0;
+}
+
+#main-bottom .img a img {
+    box-shadow: 7px 7px 15px rgba(96, 151, 234, 1);
+    transition: all 2s;
+    border-radius: 25px;
+}
+
+#main-bottom .img a:hover img {
+    box-shadow: 7px 7px 15px #999;
+    transition: 1s;
+}
+
+#main-bottom .img a:active img {
+    box-shadow: none;
+}
+
+#main-bottom .img-after {
+    opacity: 1;
+}
+
+
+/* about
+========================================= */
+
+#about {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: solid 3px rgba(96, 151, 234, 1);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1rem;
+}
+
+
+/* main spo-news
+=========================================== */
+
+#spo-news {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 60px;
+} 
+
+#spo-news h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#spo-news .news-content {
+    padding: 10px;
+    border-top: 1px solid #999;
+}
+
+#spo-news .news-content p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+#spo-news .btn {
+    font-size: 1.1rem;
+    color: #444;
+    border: none;
+    margin: 30px auto;
+    background: linear-gradient(110deg, rgba(0, 130, 255, 0.8), rgba(121, 224, 255, 0.3));
+}
+
+#spo-news .btn:hover, 
+#spo-news .btn:active {
+    opacity: 0.9;
+    color: #888;
+}
+
+#spo-news #collapseExample .card-body {
+    border: none;
+}
+
+#spo-news #collapseExample .news-content {
+    padding: 10px;
+    border-top: 1px solid #999;
+}
+
+
+/* footer 
+================================================ */
+
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+    background-color: #444;
+    color: #FFF;
+}
+
+
+/* events jtmave23 main
+========================================= */
+
+#kakogawa1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#kakogawa1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#kakogawa1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#kakogawa1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#kakogawa1 .animate__fadeIn .img {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#kakogawa1 .animate__fadeIn .img img {
+    border-radius: 25px;
+}
+
+#ookini1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#ookini1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#ookini1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#ookini1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#ookini1 .animate__fadeIn .img {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#ookini1 .animate__fadeIn .img img {
+    border-radius: 25px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#main .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#main .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#main .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/* events prof.html main 
+========================================= */
+
+#main .animate_fadeIn .profile {
+    text-align: center;
+    margin: 30px auto 80px auto;
+}
+
+#main .animate__fadeIn .profile h2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: solid 3px rgba(96, 151, 234, 1);
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+#main .animate__fadeIn .profile .prof-img {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#main .animate__fadeIn .profile .prof-img img {
+    border-radius: 25px;
+}
+
+#main .animate__fadeIn .profile .introd-list li {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+
+/* events zenja-figskate92.html main 
+========================================= */
+
+#zenni-figskate23 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#zenni-figskate23 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#zenni-figskate23 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin: 20px auto;
+}
+
+#zenni-figskate23 .animate__fadeIn .img {
+    padding: 20px;
+    margin: 30px auto;
+} 
+
+#zenni-figskate23 .animate__fadeIn .img img {
+    border-radius: 25px;
+} 
+
+#zenni-figskate23 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin: 20px auto 0 auto;
+}
+
+#zenni-figskate23 .animate__fadeIn h5 {
+    font-size: 1.1rem;
+    margin: 20px auto 0 auto;
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-women,
+#zenni-figskate23 .animate__fadeIn .skate-men,
+#zenni-figskate23 .animate__fadeIn .skate-pear,
+#zenni-figskate23 .animate__fadeIn .skate-icedance {
+    margin: 40px auto;
+    margin-bottom: 60px;
+    border: 1px solid #999;
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-women tr th {
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(206, 132, 132, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-men tr th {
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(100, 124, 230, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-pear tr th {
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(162, 255, 104, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-icedance tr th {
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 147, 80, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-women tr td,
+#zenni-figskate23 .animate__fadeIn .skate-men tr td,
+#zenni-figskate23 .animate__fadeIn .skate-pear tr td,
+#zenni-figskate23 .animate__fadeIn .skate-icedance tr td {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(209, 209, 209, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-women tr {
+    border-bottom: 2px solid rgb(206, 132, 132, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-men tr {
+    border-bottom: 2px solid rgb(100, 124, 230, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-pear tr {
+    border-bottom: 2px solid rgb(162, 255, 104, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-icedance tr {
+    border-bottom: 2px solid rgb(255, 147, 80, 0.8);
+}
+
+#zenni-figskate23 .animate__fadeIn .skate-women tr:first-child,
+#zenni-figskate23 .animate__fadeIn .skate-men tr:first-child,
+#zenni-figskate23 .animate__fadeIn .skate-pear tr:first-child,
+#zenni-figskate23 .animate__fadeIn .skate-icedance tr:first-child {
+    border-bottom: none;
+}
+

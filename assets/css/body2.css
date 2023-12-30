@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Noto+Serif+JP:wght@700&family=Shippori+Mincho+B1:wght@700&display=swap');
+
+
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 0.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* header navbar
+=================================== */
+
+#hdr_header {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Kalam', cursive;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#header .navbar {
+    padding: 15px;
+    background: linear-gradient(150deg, rgba(96, 151, 234, 1), rgba(255, 255, 255, 1));
+}
+
+#header .navbar h1 a {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+#header .navbar .navbar-toggler i {
+    font-size: 2.5rem;
+    position: relative;
+    right: 5px;
+    bottom: 3px;
+}
+
+#header .navbar .navbar-nav {
+    padding-left: 20px;
+}
+
+#header .navbar .navbar-nav a {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+#header .navbar .navbar-nav .dropdown-item {
+    font-size: 1.2rem;
+}
+
+
+/* events main
+========================================= */
+
+#kakogawa1 {
+    text-align: center;
+}
+
+#kakogawa1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#kakogawa1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#kakogawa1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#kakogawa1 .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#ookini1 {
+    text-align: center;
+}
+
+#ookini1 .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#ookini1 .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#ookini1 .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#ookini1 .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin: 40px auto;
+}
+
+#main .animate__fadeIn h3 {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+}
+
+#main .animate__fadeIn h4 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#main .animate__fadeIn .img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+/* prof.html main 
+========================================= */
+
+#main .animate_fadeIn .profile {
+    text-align: center;
+    margin: 30px auto 80px auto;
+}
+
+#main .animate__fadeIn .profile h2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    border-bottom: solid 2px #00F;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+#main .animate__fadeIn .profile .prof-img {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#main .animate__fadeIn .profile p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#main .animate__fadeIn .profile .introd-list li {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+
+/* footer 
+================================================ */
+
+#footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+    background-color: #444;
+    color: #FFF;
+}
