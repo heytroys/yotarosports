@@ -540,7 +540,6 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-wo {
-    display: inline-block;
     text-align: center;
     padding: 15px;
     margin: 20px;
@@ -583,7 +582,9 @@ a {
 #zenni-figskate23 .animate_fadeIn .daihyo-wo h6 {
     font-size: 1rem;
     color: #000;
-    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px rgb(206, 132, 132, 0.8);
+    margin: 40px auto;
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-me h4 {
@@ -595,7 +596,9 @@ a {
 #zenni-figskate23 .animate_fadeIn .daihyo-me h6 {
     font-size: 1rem;
     color: #000;
-    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px rgb(100, 124, 230, 0.8);
+    margin: 40px auto;
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-pe h4 {
@@ -607,7 +610,9 @@ a {
 #zenni-figskate23 .animate_fadeIn .daihyo-pe h6 {
     font-size: 1rem;
     color: #000;
-    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px rgb(162, 255, 104, 0.8);
+    margin: 40px auto;
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-ice h4 {
@@ -619,6 +624,8 @@ a {
 #zenni-figskate23 .animate_fadeIn .daihyo-ice h6 {
     font-size: 1rem;
     color: #000;
-    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: solid 2px rgb(255, 147, 80, 0.8);
+    margin: 40px auto;
 }
 
