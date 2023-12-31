@@ -580,6 +580,7 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-wo h6 {
+    display: inline-block;
     font-size: 1rem;
     color: #000;
     padding: 5px;
@@ -594,6 +595,7 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-me h6 {
+    display: inline-block;
     font-size: 1rem;
     color: #000;
     padding: 5px;
@@ -608,6 +610,7 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-pe h6 {
+    display: inline-block;
     font-size: 1rem;
     color: #000;
     padding: 5px;
@@ -622,6 +625,7 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-ice h6 {
+    display: inline-block;
     font-size: 1rem;
     color: #000;
     padding: 5px;
