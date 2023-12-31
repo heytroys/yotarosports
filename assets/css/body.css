@@ -457,7 +457,9 @@ a {
 
 #zenni-figskate23 .animate__fadeIn h4 {
     font-size: 1.3rem;
-    margin: 60px auto 0 auto;
+    padding-top: 60px;
+    border-top: solid 2px #999;
+    margin: 20px auto 0 auto;
 }
 
 #zenni-figskate23 .animate__fadeIn h5 {
