@@ -540,8 +540,10 @@ a {
 }
 
 #zenni-figskate23 .animate_fadeIn .daihyo-wo {
+    display: inline-block;
     text-align: center;
     padding: 15px;
+    margin: 20px;
     border-top: #solid 2px rgb(206, 132, 132, 0.8);
     border-bottom: #solid 2px rgb(206, 132, 132, 0.8);
     margin-bottom: 80px;
