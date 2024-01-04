@@ -244,6 +244,12 @@ a {
     margin-bottom: 5px;
 }
 
+#spo-news .news-content p a {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 5px;
+}
+
 #spo-news .btn {
     font-size: 1.1rem;
     color: #444;
