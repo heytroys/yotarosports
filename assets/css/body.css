@@ -635,3 +635,94 @@ a {
     margin: 40px auto;
 }
 
+/* athlete page
+=============================================================== */
+
+#atl-prof {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+#atl-prof .animate__fadeIn h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+#atl-prof .animate__fadeIn p {
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 40px;
+    color: #999;
+    margin: 0 0 90px 0;
+
+}
+
+#atl-prof .animate__fadeIn .atl-img {
+    margin-bottom: 15px;
+}
+
+#atl-prof .animate__fadeIn .atl-img img {
+    border-radius: 25px;
+}
+
+#atl-prof .animate__fadeIn .atl-life {
+    margin-bottom: 80px;
+}
+
+#atl-prof .animate__fadeIn .atl-life .atl-life-content {
+    margin-bottom: 20px;
+}
+
+#atl-prof .animate__fadeIn .atl-life .atl-life-content h3 {
+    font-size: 1.4rem;
+    display: inline-block;
+    border-bottom: solid 2px #999;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#atl-prof .animate__fadeIn .atl-life .atl-life-content p {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+#atl-prof .animate__fadeIn .atl-life .atl-life-content-end {
+    margin-bottom: 20px;
+}
+
+#atl-prof .animate__fadeIn .atl-life .atl-life-content-end p {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    padding-left: 0;
+    margin: 50px auto 60px auto;
+}
+
+#atl-prof .animate__fadeIn .atl-score {
+    margin-bottom: 80px;
+}
+
+#atl-prof .animate__fadeIn .atl-score .atl-score-content {
+    margin-bottom: 20px;
+}
+
+#atl-prof .animate__fadeIn .atl-score .atl-score-content h3 {
+    font-size: 1.4rem;
+    display: inline-block;
+    border-bottom: solid 2px #daa520;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#atl-prof .animate__fadeIn .atl-score .atl-score-content p {
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
